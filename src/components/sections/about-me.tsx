@@ -32,7 +32,7 @@ const AboutMeSection = () => {
             My Journey: Spreading Smiles Through Frontend Engineering
           </Typography>
           <Typography>
-            I've got a story to share about how I went from making memes to
+            I&apos;ve got a story to share about how I went from making memes to
             crafting delightful frontend experiences.
           </Typography>
           <Typography>
@@ -45,7 +45,7 @@ const AboutMeSection = () => {
             With a keen eye for detail and a passion for creating
             easy-to-understand content, I found my calling. Building sleek
             interfaces and user-friendly experiences became my way of bringing
-            smiles to people's faces.
+            smiles to people&apos;s faces.
           </Typography>
           <Typography>
             Sharing my projects with friends became just as fulfilling as
@@ -53,10 +53,10 @@ const AboutMeSection = () => {
             passion even more.
           </Typography>
           <Typography>
-            Today, as a frontend engineer, I'm on a mission to make the web a
+            Today, as a frontend engineer, I&apos;m on a mission to make the web a
             happier place, one delightful experience at a time. So join me on
             this journey of learning, laughter, and spreading joy through code.
-            Together, let's create something that leaves everyone smiling.
+            Together, let&apos;s create something that leaves everyone smiling.
           </Typography>
           <Typography>Finally, some quick bits about me.</Typography>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">

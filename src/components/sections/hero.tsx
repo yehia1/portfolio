@@ -31,7 +31,7 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-            Hey there! I&apos;m Mahmoud Ramadan, my friends call me Rmdn. I'm a Frontend Engineer passionate about creating innovative web experiences using ReactJS and its ecosystem. Interested in seeing how I blend creativity and technology to build exceptional user experiences? Explore my portfolio and let's embark on a web development journey together. I'm currently seeking new opportunities to bring my skills and enthusiasm to a dynamic team.
+            Hey there! I&apos;m Mahmoud Ramadan, my friends call me Rmdn. I&apos;m a Frontend Engineer passionate about creating innovative web experiences using ReactJS and its ecosystem. Interested in seeing how I blend creativity and technology to build exceptional user experiences? Explore my portfolio and let&apos;s embark on a web development journey together. I&apos;m currently seeking new opportunities to bring my skills and enthusiasm to a dynamic team.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
