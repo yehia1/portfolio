@@ -213,21 +213,21 @@ export const TESTIMONIALS: TestimonialDetails[] = [
   {
     personName: "Mahmoud Al-Alfy",
     personAvatar: AvatarAlfy,
-    title: "Full stack developer",
+    title: "Full stack developer @ viakonnect",
     testimonial:
       "I've had the pleasure of collaborating with Ramadan on several frontend projects, and I can't imagine a better teammate. His passion for learning and dedication to creating delightful experiences shine through in everything they do.",
   },
   {
     personName: "Mahmoud Bebars",
     personAvatar: AvatarBebars,
-    title: "Data Analyst",
+    title: "Data Analyst @ Silicon Expert",
     testimonial:
       "Having Ramadan as a colleague has been a game-changer for our team. Not only is he incredibly skilled in frontend development, but he also bring a level of enthusiasm and positivity that's contagious. Whenever we hit a roadblock, Rmdn is the first to crack a joke or offer words of encouragement, keeping morale high and motivation strong.",
   },
   {
     personName: "Ziad Emad",
     personAvatar: AvatarDummy,
-    title: "Senior Software Engineer",
+    title: "Senior Software Engineer @ Suplyed",
     testimonial:
       "Watching Ramadan evolve has been inspiring. From his early days to now, his dedication to learning is clear. Always eager to embrace new skills, Ramadan drives both personal growth and team success. His passion knows no bounds, and I'm excited to see where he go next.",
   },
