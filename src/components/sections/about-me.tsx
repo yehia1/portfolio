@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import RamadanFullPose from "/public/images/ramadan-full-pose.jpg";
+import YehiaFullPose from "/public/images/Full Pose.jpg";
 import Tag from "@/components/data-display/tag";
 import Container from "@/components/layout/container";
 import Typography from "@/components/general/typography";
@@ -17,8 +17,8 @@ const AboutMeSection = () => {
         <div className="flex justify-center md:order-first md:justify-end">
           <div className="relative h-[380px] w-[320px] md:h-[460px] md:w-[380px] lg:h-[520px] lg:w-[440px]">
             <Image
-              src={RamadanFullPose}
-              alt="Full pose of Ramadan"
+              src={YehiaFullPose}
+              alt="Full pose of Yehia"
               className="absolute z-10 h-[360px] w-[280px] border-8 border-gray-50 max-md:left-5 md:right-0 md:top-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"
               style={{ objectFit: "cover" }}
             ></Image>
@@ -29,34 +29,33 @@ const AboutMeSection = () => {
         {/* Content */}
         <div className="flex max-w-xl flex-col gap-6">
           <Typography variant="h3">
-            My Journey: Spreading Smiles Through Frontend Engineering
+            My Journey: Gives you the insights you want from data 😁
           </Typography>
           <Typography>
-            I&apos;ve got a story to share about how I went from making memes to
-            crafting delightful frontend experiences.
+          In my academic journey, I joined the FWD initiative, where I delved into data analysis.
+          Despite the initial challenges, I mastered data manipulation and gained valuable insights.
+          Successfully completing all the projects was a rewarding achievement. 🔥
           </Typography>
           <Typography>
-            Back in my computer engineering days, I found joy in making people
-            laugh with memes. But as I dove deeper into the world of web
-            development, I discovered a new way to spread happiness - through
-            frontend engineering.
+          Continuing my journey, I successfully completed all three FWD data analysis certificates.
+          Additionally, I participated in a Business Intelligence (BI) training program hosted by ITI.
           </Typography>
           <Typography>
-            With a keen eye for detail and a passion for creating
-            easy-to-understand content, I found my calling. Building sleek
-            interfaces and user-friendly experiences became my way of bringing
-            smiles to people&apos;s faces.
+          I learned from ITI this
+          • Completed a one-month BI internship at ITI where I attended meetings and completed tasks related to DBMS
+            and SQL server using Microsoft SQL management studio.
+          • Developed skills in creating and manipulating databases, cleaning data, and visualizing data using Power BI.
+          • Worked on the Bike-share database to analyze popular stations, time of travel, trips, trip duration, and user
+            info.
+          • Gained experience in using SQL queries to retrieve data that fits business KPIs
+
+          This was my first professional experience where I learned alot from it.
           </Typography>
           <Typography>
-            Sharing my projects with friends became just as fulfilling as
-            sharing a hilarious meme. Their laughter and excitement fueled my
-            passion even more.
+          Today I am working on myself to master all I can in the data science field 
+          recently studying DWH and big data also learning Machine learning.
           </Typography>
           <Typography>
-            Today, as a frontend engineer, I&apos;m on a mission to make the web a
-            happier place, one delightful experience at a time. So join me on
-            this journey of learning, laughter, and spreading joy through code.
-            Together, let&apos;s create something that leaves everyone smiling.
           </Typography>
           <Typography>Finally, some quick bits about me.</Typography>
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">

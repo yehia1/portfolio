@@ -1,16 +1,10 @@
 import { Github, Twitter, Linkedin } from "lucide-react";
 
-import LogoJavascript from "/public/images/logos/icon-javascript.svg";
-import LogoTypescript from "/public/images/logos/icon-typescript.svg";
-import LogoReact from "/public/images/logos/icon-react.svg";
-import LogoNextjs from "/public/images/logos/icon-nextjs.svg";
 import LogoPostgreSQL from "/public/images/logos/icon-postgresql.svg";
-import LogoTailwindcss from "/public/images/logos/icon-tailwindcss.svg";
-
+import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
-import LogoAWS from "/public/images/logos/icon-aws.svg";
 
-import GizaSystemsLogo from "/public/images/logos/logo-giza-systems.svg";
+import MarketeersResearchLogo from "/public/images/logos/marketeers_research_fze_logo.svg";
 
 import ProjectPageForm from "/public/images/ProjectPageForm.png";
 import ProjectGameHub from "/public/images/ProjectGameHub.png";
@@ -27,10 +21,10 @@ import {
 } from "@/lib/types";
 
 export const EXTERNAL_LINKS = {
-  GITHUB: "https://github.com/0xramadan",
-  GITHUB_REPO: "https://github.com/0xramadan",
+  GITHUB: "https://github.com/yehia1",
+  GITHUB_REPO: "https://github.com/yehia1",
   TWITTER: "https://twitter.com/0xramadan",
-  LINKEDIN: "https://linkedin.com/in/0xramadan",
+  LINKEDIN: "https://www.linkedin.com/in/yehia-hossam/",
 };
 
 export const NAV_LINKS = [
@@ -55,121 +49,46 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: "https://github.com/0xramadan",
-  },
-  {
-    icon: Twitter,
-    url: "https://twitter.com/0xramadan",
+    url: "https://github.com/yehia1",
   },
   {
     icon: Linkedin,
-    url: "https://linkedin.com/in/0xramadan",
+    url: "https://www.linkedin.com/in/yehia-hossam/",
   },
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
   {
-    label: "Javascript",
-    logo: LogoJavascript,
-    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  },
-  {
-    label: "Typescript",
-    logo: LogoTypescript,
-    url: "https://www.typescriptlang.org/",
-  },
-  {
-    label: "React",
-    logo: LogoReact,
-    url: "https://react.dev/",
-  },
-  {
-    label: "Next.js",
-    logo: LogoNextjs,
-    url: "https://nextjs.org/",
-  },
-  {
     label: "Git",
     logo: LogoGit,
     url: "https://git-scm.com/",
   },
-  // {
-  //   label: 'Node.js',
-  //   logo: LogoNodejs,
-  //   url: 'https://nodejs.org/en',
-  // },
-  // {
-  //   label: 'Express.js',
-  //   logo: LogoExpress,
-  //   darkModeLogo: LogoExpressLight,
-  //   url: 'https://expressjs.com/',
-  // },
-  // {
-  //   label: 'Nest.js',
-  //   logo: LogoNest,
-  //   url: 'https://nestjs.com/',
-  // },
-  // {
-  //   label: 'Socket.io',
-  //   logo: LogoSocket,
-  //   darkModeLogo: LogoSocketLight,
-  //   url: 'https://socket.io/',
-  // },
   {
     label: "PostgreSQL",
     logo: LogoPostgreSQL,
     url: "https://www.postgresql.org/",
   },
-  // {
-  //   label: 'MongoDB',
-  //   logo: LogoMongoDB,
-  //   url: 'https://www.mongodb.com/',
-  // },
-  // {
-  //   label: 'Sass/Scss',
-  //   logo: LogoSass,
-  //   url: 'https://sass-lang.com/',
-  // },
   {
-    label: "Tailwindcss",
-    logo: LogoTailwindcss,
-    url: "https://tailwindcss.com/",
+    label: 'MongoDB',
+    logo: LogoMongoDB,
+    url: 'https://www.mongodb.com/',
   },
-  {
-    label: "AWS",
-    logo: LogoAWS,
-    url: "https://aws.amazon.com/",
-  },
-  // {
-  //   label: 'Figma',
-  //   logo: LogoFigma,
-  //   url: 'https://www.figma.com/',
-  // },
-  // {
-  //   label: 'Cypress',
-  //   logo: LogoCypress,
-  //   darkModeLogo: LogoCypressLight,
-  //   url: 'https://www.cypress.io/',
-  // },
-  // {
-  //   label: 'Storybook',
-  //   logo: LogoStorybook,
-  //   url: 'https://storybook.js.org/',
-  // }
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: GizaSystemsLogo,
-    logoAlt: "Giza Systems logo",
-    position: "Application Support Engineer",
-    startDate: new Date(2024, 1),
+    logo: MarketeersResearchLogo,
+    logoAlt: "Marketeers Research logo",
+    position: "Data Analyst",
+    startDate: new Date(2023, 5),
     // endDate: new Date(2024, 12),
     currentlyWorkHere: true,
     summary: [
-      "Resolving technical tickets promptly, ensuring optimal application functionality.",
-      "Monitoring performance and server health and mitigating latency issues for seamless operation.",
-      "Delivered weekly reports to management, detailing application performance metrics.",
+      "Developing automated data cleaning modules using Python to streamline data processing, ensuring accuracy,and enhancing efficiency in data manipulation tasks.",
+      "Leveraging MS Excel and Python to create and implement an automation system for handling large datasets,thereby improving data management and analysis processes..",
+      "Creating impactful PowerPoint presentations to communicate data-driven findings and recommendations to stakeholders, facilitating effective decision-making and driving business growth.",
+      "Improving the process by 50% making an automation python script to write the text file for the ETL application.",
+      "Improving the essential codes by implementing clean code concepts."
     ],
   },
 ];
@@ -222,13 +141,13 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarBebars,
     title: "Data Analyst @ Silicon Expert",
     testimonial:
-      "Having Ramadan as a colleague has been a game-changer for our team. Not only is he incredibly skilled in frontend development, but he also bring a level of enthusiasm and positivity that's contagious. Whenever we hit a roadblock, Rmdn is the first to crack a joke or offer words of encouragement, keeping morale high and motivation strong.",
+      "Having Yehia as a colleague has been a game-changer for our team. Not only is he incredibly skilled in frontend development, but he also bring a level of enthusiasm and positivity that's contagious. Whenever we hit a roadblock, Rmdn is the first to crack a joke or offer words of encouragement, keeping morale high and motivation strong.",
   },
   {
     personName: "Ziad Emad",
     personAvatar: AvatarDummy,
     title: "Senior Software Engineer @ Suplyed",
     testimonial:
-      "Watching Ramadan evolve has been inspiring. From his early days to now, his dedication to learning is clear. Always eager to embrace new skills, Ramadan drives both personal growth and team success. His passion knows no bounds, and I'm excited to see where he go next.",
+      "Watching Yehia evolve has been inspiring. From his early days to now, his dedication to learning is clear. Always eager to embrace new skills, Ramadan drives both personal growth and team success. His passion knows no bounds, and I'm excited to see where he go next.",
   },
 ];

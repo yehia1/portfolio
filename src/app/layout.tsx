@@ -7,9 +7,9 @@ import { Providers } from '@/lib/providers';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Mahmoud Ramadan | React Developer';
+const title = 'Yehia Hossam | Data Analyst';
 const description =
-  'specializes in Frontend Engineering, from cairo, Egypt.';
+  'specializes in Data Science, from cairo, Egypt.';
 const url = 'https://0xramadan.vercel.app/';
 
 export const metadata: Metadata = {
@@ -17,13 +17,12 @@ export const metadata: Metadata = {
   title,
   description,
   keywords: [
-    'Frontend Developer',
-    'Full Stack Developer',
-    'React Developer',
-    'Next.js Developer',
-    'Reactjs Developer',
+    'Data Analyst',
+    'BI Engineer',
+    'BI Developer',
+    'Data Science',
   ],
-  creator: 'Mahmoud Ramadan',
+  creator: 'Yehia Hossam',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
