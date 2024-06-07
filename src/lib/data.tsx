@@ -3,6 +3,14 @@ import { Github, Twitter, Linkedin } from "lucide-react";
 import LogoPostgreSQL from "/public/images/logos/icon-postgresql.svg";
 import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
+import LogoPython from "/public/images/logos/python-logo.svg";
+import LogoPowerBI from "/public/images/logos/Power_BI-logo.svg";
+import LogoExcel from "/public/images/logos/excel-logo.svg";
+import LogoR from "/public/images/logos/r-logo.svg";
+import LogoPandas from "/public/images/logos/Pandas-logo.svg";
+import LogoSQLServer from "/public/images/logos/sql-server-logo.svg";
+import LogoTableau from "/public/images/logos/tableau-logo.svg";
+import LogoSklearn from "/public/images/logos/scikit-learn-logo.svg";
 
 import MarketeersResearchLogo from "/public/images/logos/marketeers_research_fze_logo.svg";
 
@@ -59,6 +67,36 @@ export const SOCIAL_LINKS = [
 
 export const TECHNOLOGIES: TechDetails[] = [
   {
+    label: "Python",
+    logo: LogoPython,
+    url: "https://www.python.org/",
+  },
+  {
+    label: "PowerBI",
+    logo: LogoPowerBI,
+    url: "https://powerbi.microsoft.com/en-us/desktop/",
+  },
+  {
+    label: "SQLServer",
+    logo: LogoSQLServer,
+    url: "https://www.microsoft.com/en-ie/sql-server/sql-server-downloads",
+  },
+  {
+    label: "Pandas",
+    logo: LogoPandas,
+    url: "https://pandas.pydata.org/",
+  },
+  {
+    label: "Excel",
+    logo: LogoExcel,
+    url: "https://www.microsoft.com/en-ie/microsoft-365/excel",
+  },
+  {
+    label: "Tableau",
+    logo: LogoTableau,
+    url: "https://www.tableau.com/",
+  },
+  {
     label: "Git",
     logo: LogoGit,
     url: "https://git-scm.com/",
@@ -73,6 +111,16 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoMongoDB,
     url: 'https://www.mongodb.com/',
   },
+  {
+    label: 'R',
+    logo: LogoR,
+    url: 'https://www.r-project.org/',
+  },
+  {
+    label: 'Sklearn',
+    logo: LogoSklearn,
+    url: 'https://scikit-learn.org/',
+  },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
@@ -80,7 +128,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: MarketeersResearchLogo,
     logoAlt: "Marketeers Research logo",
     position: "Data Analyst",
-    startDate: new Date(2023, 5),
+    startDate: new Date(2023, 4),
     // endDate: new Date(2024, 12),
     currentlyWorkHere: true,
     summary: [
@@ -134,7 +182,7 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarAlfy,
     title: "Full stack developer @ viakonnect",
     testimonial:
-      "I've had the pleasure of collaborating with Ramadan on several frontend projects, and I can't imagine a better teammate. His passion for learning and dedication to creating delightful experiences shine through in everything they do.",
+      "I've had the pleasure of collaborating with Yehia on several frontend projects, and I can't imagine a better teammate. His passion for learning and dedication to creating delightful experiences shine through in everything they do.",
   },
   {
     personName: "Mahmoud Bebars",
