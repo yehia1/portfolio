@@ -14,10 +14,10 @@ import LogoSklearn from "/public/images/logos/scikit-learn-logo.svg";
 
 import MarketeersResearchLogo from "/public/images/logos/marketeers_research_fze_logo.svg";
 
-import ProjectPageForm from "/public/images/ProjectPageForm.png";
-import ProjectGameHub from "/public/images/ProjectGameHub.png";
+import CoffeeSalesDashboard from "/public/images/Dashboard.png";
+import DataMartDashboard from "/public/images/Dashboard1.png";
 
-import AvatarAlfy from "/public/images/avatar-alfy.png";
+import AvatarReda from "/public/images/avatar-reda.png";
 import AvatarBebars from "/public/images/avatar-bebars.png";
 import AvatarDummy from "/public/images/avatar-dummy.svg";
 
@@ -143,59 +143,59 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: "PageForm",
+    name: "Sales Data Mart Design and Dashboard",
     description:
-      "A Platform by which you can build forms in drag-and-drop way, fully customizable. you also can share the form with others and view the stats visits/submissions, deployed on Vercel.",
-    url: "https://form-builder-0xramadan.vercel.app/",
-    previewImage: ProjectPageForm,
+      "A Design of Sales Datamart using SSIS ETL application to after designing it using star schema then making a Sales Dashboard Using PowerBI",
+    url: "https://github.com/yehia1/Sales-Data-Mart",
+    previewImage: DataMartDashboard,
     technologies: [
-      "Nextjs 14",
-      "Typescript",
-      "Tailwind/ Shadcn UI",
-      "Prisma as ORM",
-      "Vercel postgreSQL",
-      "Dnd-kit library",
+      "Power BI",
+      "SSIS",
+      "SQL Server",
+      "SCD",
+      "Visual Studio",
+      "SSMS",
     ],
   },
   {
-    name: "GameHub",
+    name: "Excel Coffee Sales Dashboard",
     description:
-      "GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more.",
-    url: "https://game-hub-by-ramadan.vercel.app/",
-    previewImage: ProjectGameHub,
+      "Desiging an interactive coffee sales dashboard in excel using data modeling,pivots tables, vloopup, match and index to get valuable insights from the data ",
+    url: "https://github.com/yehia1/Coffee-Sales-Dashboard",
+    previewImage: CoffeeSalesDashboard,
     technologies: [
-      "React",
-      "Vite",
-      "Typescript",
-      "ChakraUI",
-      "Zustand",
-      "React Query",
-      "React Router",
-      "axios",
+      "Excel",
+      "Power Pivot",
+      "pivot tables",
+      "Xlookup",
+      "Vlookup",
+      "Match and index",
+      "Dashboard",
+      "Data Modeling",
     ],
   },
 ];
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
-    personName: "Mahmoud Al-Alfy",
-    personAvatar: AvatarAlfy,
-    title: "Full stack developer @ viakonnect",
+    personName: "Mahmoud Reda",
+    personAvatar: AvatarReda,
+    title: "AI Engineer @ Aixplane",
     testimonial:
-      "I've had the pleasure of collaborating with Yehia on several frontend projects, and I can't imagine a better teammate. His passion for learning and dedication to creating delightful experiences shine through in everything they do.",
+      "One of best team mate I have worked with, he is intelligent active person who always seeking to learn and improve himself, He always focusing on details and how to solve problems , also he is professional and willing to be a leader when it needs.",
   },
   {
     personName: "Mahmoud Bebars",
     personAvatar: AvatarBebars,
     title: "Data Analyst @ Silicon Expert",
     testimonial:
-      "Having Yehia as a colleague has been a game-changer for our team. Not only is he incredibly skilled in frontend development, but he also bring a level of enthusiasm and positivity that's contagious. Whenever we hit a roadblock, Rmdn is the first to crack a joke or offer words of encouragement, keeping morale high and motivation strong.",
+      "Witnessed Yehia Hossam's growth as a data analyst in recent years. His strong foundation in computer and systems engineering fuels his expertise in Excel, SQL, Python, and data visualization tools (PowerBI, Tableau).  Beyond technical prowess, Yehia's collaborative spirit and problem-solving skills make him a valuable asset who strengthens any data team.",
   },
   {
     personName: "Ziad Emad",
     personAvatar: AvatarDummy,
     title: "Senior Software Engineer @ Suplyed",
     testimonial:
-      "Watching Yehia evolve has been inspiring. From his early days to now, his dedication to learning is clear. Always eager to embrace new skills, Ramadan drives both personal growth and team success. His passion knows no bounds, and I'm excited to see where he go next.",
+      "Watching Yehia evolve has been inspiring. From his early days to now, his dedication to learning is clear. Always eager to embrace new skills, Yehia drives both personal growth and team success. His passion knows no bounds, and I'm excited to see where he go next.",
   },
 ];
