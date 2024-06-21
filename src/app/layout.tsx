@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: '/public/images/open-graph.png',
+        url: 'images/open-graph.png',
       },
     ],
   },
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title,
     description,
     creator: '@Yehia',
-    images: '/public/images/open-graph.png',
+    images: '/images/open-graph.png',
   },
   icons: {
     icon: '/favicon.ico',
