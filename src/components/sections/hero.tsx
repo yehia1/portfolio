@@ -32,7 +32,7 @@ const HeroSection = () => {
             </Typography>
             <Typography>
             Hey there! I&apos;m Yehia Hossam, I&apos;m a Data Analyst passionate 
-            about Dealing with to get valuable information out of it.
+            about Dealing with data to get valuable information out of it.
             Interested in seeing how I blend creativity and technology to gain valuable insights from data?
             Explore my portfolio and let&apos;s embark on a Data science journey together.
             I&apos;m currently seeking new opportunities to bring my skills and enthusiasm to a dynamic team.
