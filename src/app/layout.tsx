@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     'BI Engineer',
     'BI Developer',
     'Data Science',
+    'Data Engineer'
   ],
   creator: 'Yehia Hossam',
   themeColor: [
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title,
     description,
-    creator: '@0xramadan',
+    creator: '@Yehia',
     images: '/images/open-graph.png',
   },
   icons: {
