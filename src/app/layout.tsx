@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] });
 const title = 'Yehia Hossam | Data Analyst';
 const description =
   'specializes in Data Science, from cairo, Egypt.';
-const url = 'https://0xramadan.vercel.app/';
+const url = 'https://yehia-hossam.vercel.app/';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
