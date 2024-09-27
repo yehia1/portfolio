@@ -1,4 +1,4 @@
-import { Github, Twitter, Linkedin } from "lucide-react";
+import { Github, Twitter, Linkedin, Import } from "lucide-react";
 
 import LogoPostgreSQL from "/public/images/logos/icon-postgresql.svg";
 import LogoMongoDB from "/public/images/logos/icon-mongodb.svg";
@@ -11,11 +11,20 @@ import LogoPandas from "/public/images/logos/Pandas-logo.svg";
 import LogoSQLServer from "/public/images/logos/sql-server-logo.svg";
 import LogoTableau from "/public/images/logos/tableau-logo.svg";
 import LogoSklearn from "/public/images/logos/scikit-learn-logo.svg";
+import LogoSelenium from "/public/images/logos/selenium-logo.svg";
+import LogoDbt from "/public/images/logos/Dbt-logo.svg";
+import LogoDocker from "/public/images/logos/docker-logo.svg";
+import LogoGoogleStorage from "/public/images/logos/google-storage-logo.svg";
+import LogoBigQuery from "/public/images/logos/bigquery-logo.svg";
+import LogoLookerStudio from "/public/images/logos/looker-logo.svg"
+import LogoMage from"/public/images/logos/Mage-logo.svg"
+import LogoAWS from "/public/images/logos/aws-logo.svg"
 
 import MarketeersResearchLogo from "/public/images/logos/marketeers_research_fze_logo.svg";
 
 import CoffeeSalesDashboard from "/public/images/Dashboard.png";
 import DataMartDashboard from "/public/images/Dashboard1.png";
+import Wuzzefwebsite from "/public/images/Wuzeef.png";
 
 import AvatarReda from "/public/images/avatar-reda.png";
 import AvatarBebars from "/public/images/avatar-bebars.png";
@@ -121,6 +130,49 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoSklearn,
     url: 'https://scikit-learn.org/',
   },
+  {
+    label: 'Selenium',
+    logo: LogoSelenium,
+    url: 'https://www.selenium.de',
+  },
+  {
+    label: 'Dbt',
+    logo: LogoDbt,
+    url: 'https://www.getdbt.com/',
+  },
+  {
+    label: 'Docker',
+    logo: LogoDocker,
+    url: 'https://www.docker.com/',
+  },
+  {
+    label: 'Google Storage',
+    logo: LogoGoogleStorage,
+    url: 'https://cloud.google.com/storage?hl=en',
+  },
+
+  {
+    label: 'Google Bigquery',
+    logo: LogoBigQuery,
+    url: 'https://cloud.google.com/bigquery/?hl=en',
+  },
+
+  {
+    label: 'Looker Studio',
+    logo: LogoLookerStudio,
+    url: 'https://lookerstudio.google.com/',
+  },
+  
+  {
+    label: 'Mage AI',
+    logo: LogoMage,
+    url: 'https://www.mage.ai/',
+  },
+  {
+    label: 'AWS',
+    logo: LogoAWS,
+    url: 'https://aws.amazon.com/',
+  },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
@@ -172,6 +224,23 @@ export const PROJECTS: ProjectDetails[] = [
       "Match and index",
       "Dashboard",
       "Data Modeling",
+    ],
+  },
+  {
+    name: "Wuzeef Daily data scraper",
+    description:
+      "Writing a code to scrape data from wuzzef.org for a given positions for the last 24 hours and saves the result in Excel file",
+    url: "https://github.com/yehia1/Wuzzef-daily-data-scrapper",
+    previewImage: Wuzzefwebsite,
+    technologies: [
+      "Python",
+      "Selenium",
+      "Pandas",
+      "Visual code",
+      "Excel",
+      "Bash Script",
+      "Data Scraping",
+      "Data Gathering",
     ],
   },
 ];

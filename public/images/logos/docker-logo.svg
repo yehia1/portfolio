@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg xmlns="http://www.w3.org/2000/svg"
+aria-label="Docker" width="64px" height="64px" viewBox="0 0 512 512" >
+<defs><linearGradient id="a" x1="4.494" y1="-2092.086" x2="13.832" y2="-2075.914"
+gradientTransform="translate(0 2100)" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#18884f"/><stop offset="0.5" stop-color="#117e43"/><stop offset="1" stop-color="#0b6631"/>
+</linearGradient></defs>
+<path stroke="#066da5" stroke-width="38" d="M296 226h42m-92 0h42m-91 0h42m-91 0h41m-91 0h42m8-46h41m8 0h42m7 0h42m-42-46h42"/>
+<path fill="#066da5" d="m472 228s-18-17-55-11c-4-29-35-46-35-46s-29 35-8 74c-6 3-16 7-31 7H68c-5 19-5 145 133 145 99 0 173-46 208-130 52 4 63-39 63-39"/>
+</svg>
