@@ -24,7 +24,7 @@ import MarketeersResearchLogo from "/public/images/logos/marketeers_research_fze
 
 import CoffeeSalesDashboard from "/public/images/Dashboard.png";
 import DataMartDashboard from "/public/images/Dashboard1.png";
-import Wuzzefwebsite from "/public/images/Wuzeef.png";
+import Wuzzefwebsite from "/public/images/wuzeef.png";
 
 import AvatarReda from "/public/images/avatar-reda.png";
 import AvatarBebars from "/public/images/avatar-bebars.png";
