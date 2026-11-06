@@ -1,15 +1,21 @@
-<h1 align="center">
-  yehia-hossam.vercel.app
-</h1>
-<p align="center">
-  My portfolio website built with <a href="https://nextjs.org" target="_blank">Next.js</a>, <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>, <a href="https://www.radix-ui.com" target="_blank">Radix UI</a> and deployed on <a href="https://www.netlify.com/" target="_blank">Vercel</a>.⚡
-</p>
+# Yehia Hossam — Data Engineering Portfolio
 
-## Tech Stack
+A minimal, responsive portfolio built with Next.js 14, TypeScript, Tailwind CSS, and Lucide icons.
 
-- [Next.js](https://nextjs.org) - React framework for building performant apps with the best developer experience
-- [TypeScript](https://typescriptlang.org) - Static type checker for end-to-end typesafety
-- [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework for rapid UI development
-- [Radix UI](https://www.radix-ui.com/) - Primitives like drawer, button, etc. to build a stellar user experience
-- [Lucide Icons](https://lucide.dev) - Beautifully simple, pixel-perfect icons
-- [Next Themes](https://github.com/pacocoursey/next-themes) - An abstraction for themes (Dark + Light Mode).
+## Local development
+
+```sh
+npm ci
+npm run dev
+```
+
+## Production
+
+```sh
+npm run build
+npm start
+```
+
+The main page and portfolio content live in `src/app/page.tsx`, styling in `src/app/globals.css`, and search/social metadata in `src/app/layout.tsx`. The downloadable resume is `public/files/Yehia Hossam DE.pdf`.
+
+Content covers professional experience, engineering projects, technical skills, certifications, education, and employment/freelance contact options. Project and credential URLs are taken from the updated resume.
